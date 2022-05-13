@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    volumes:
+      - ./db_data:/docker-entrypoint-initdb.d
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: postgres
+      POSTGRES_DB: maib
+    ports:
+      - '5432:5432'
