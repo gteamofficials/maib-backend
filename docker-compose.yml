@@ -1,4 +1,4 @@
-version: '3.4'
+version: "3.4"
 
 services:
   db:
@@ -11,4 +11,4 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_DB: maib
     ports:
-      - '5432:5432'
+      - "5432:5432"

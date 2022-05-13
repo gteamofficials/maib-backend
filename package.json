@@ -6,8 +6,10 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi"
+    "build": "npm run prettier-check && strapi build",
+    "strapi": "strapi",
+    "prettier-check": "prettier --check .",
+    "prettier-write": "prettier --write ."
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.1.9",
