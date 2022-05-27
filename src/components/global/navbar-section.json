@@ -2,14 +2,16 @@
   "collectionName": "components_global_navbar_sections",
   "info": {
     "displayName": "NavbarSection",
-    "icon": "border-all"
+    "icon": "border-all",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "links": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.link"
+      "component": "shared.link",
+      "required": true
     }
   }
 }

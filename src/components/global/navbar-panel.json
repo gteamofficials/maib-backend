@@ -2,19 +2,20 @@
   "collectionName": "components_global_navbar_panels",
   "info": {
     "displayName": "NavbarPanel",
-    "icon": "columns"
+    "icon": "columns",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "link": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.link"
+    "label": {
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "sections": {
-      "type": "component",
-      "repeatable": true,
-      "component": "global.navbar-section"
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::section.section"
     }
   }
 }

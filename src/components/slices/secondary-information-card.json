@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_global_service_cards",
+  "collectionName": "components_slices_secondary_information_cards",
   "info": {
-    "displayName": "ServiceCard",
-    "icon": "address-card",
+    "displayName": "SecondaryInformationCard",
+    "icon": "align-right",
     "description": ""
   },
   "options": {},
@@ -19,8 +19,14 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "text",
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link",
       "required": true
     }
   }
