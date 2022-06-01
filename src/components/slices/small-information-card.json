@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_slices_small_information_cards",
+  "info": {
+    "displayName": "SmallInformationCard",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link",
+      "required": true
+    }
+  }
+}
