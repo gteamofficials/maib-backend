@@ -24,10 +24,7 @@
     },
     "category": {
       "type": "enumeration",
-      "enum": [
-        "Artikel",
-        "Berita"
-      ],
+      "enum": ["Artikel", "Berita"],
       "required": true
     },
     "date": {
@@ -38,17 +35,13 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "images": {
       "type": "media",
       "multiple": true,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "slug": {
       "type": "uid",
