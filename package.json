@@ -6,15 +6,18 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi"
+    "build": "npm run prettier-check && strapi build",
+    "strapi": "strapi",
+    "prettier-check": "prettier --check .",
+    "prettier-write": "prettier --write ."
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.1.9",
     "@strapi/plugin-seo": "^1.7.2",
     "@strapi/plugin-users-permissions": "4.1.9",
     "@strapi/strapi": "4.1.9",
-    "pg": "^8.7.3"
+    "pg": "^8.7.3",
+    "strapi-plugin-migrations": "^1.0.4"
   },
   "author": {
     "name": "A Strapi developer"
