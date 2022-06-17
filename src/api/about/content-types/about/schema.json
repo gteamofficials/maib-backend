@@ -24,17 +24,11 @@
       "type": "media",
       "multiple": true,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "category": {
       "type": "enumeration",
-      "enum": [
-        "visi",
-        "misi",
-        "sejarah"
-      ],
+      "enum": ["visi", "misi", "sejarah"],
       "required": true
     }
   }
