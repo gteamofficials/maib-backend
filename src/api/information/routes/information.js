@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * section router.
+ * information router.
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::section.section');
+module.exports = createCoreRouter('api::information.information');
