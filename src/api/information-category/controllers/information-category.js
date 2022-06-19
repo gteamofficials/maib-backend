@@ -1,9 +1,11 @@
-'use strict';
+"use strict";
 
 /**
  *  information-category controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const { createCoreController } = require("@strapi/strapi").factories;
 
-module.exports = createCoreController('api::information-category.information-category');
+module.exports = createCoreController(
+  "api::information-category.information-category"
+);
