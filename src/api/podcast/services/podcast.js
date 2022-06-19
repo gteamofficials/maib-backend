@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /**
  * podcast service.
  */
 
-const { createCoreService } = require('@strapi/strapi').factories;
+const { createCoreService } = require("@strapi/strapi").factories;
 
-module.exports = createCoreService('api::podcast.podcast');
+module.exports = createCoreService("api::podcast.podcast");

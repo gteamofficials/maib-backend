@@ -12,9 +12,7 @@
   "pluginOptions": {},
   "attributes": {
     "audio": {
-      "allowedTypes": [
-        "audios"
-      ],
+      "allowedTypes": ["audios"],
       "type": "media",
       "multiple": false,
       "required": true
