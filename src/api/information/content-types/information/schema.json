@@ -22,7 +22,7 @@
       "required": true,
       "default": "Please do not add image in description"
     },
-    "category": {
+    "type": {
       "type": "enumeration",
       "enum": ["Artikel", "Berita"],
       "required": true
@@ -46,6 +46,13 @@
     "slug": {
       "type": "uid",
       "targetField": "title",
+      "required": true
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::information-category.information-category",
+      "inversedBy": "information",
       "required": true
     }
   }
