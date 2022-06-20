@@ -15,4 +15,4 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "maib-backend-staging"
           heroku_email: "gteam.officials@gmail.com"
-      - run: npm run strapi admin:reset-user-password --email="gteam.officials@gmail.com" --password="Gteamofficial1"
+        run: npm run strapi admin:reset-user-password --email="gteam.officials@gmail.com" --password="Gteamofficial1"
